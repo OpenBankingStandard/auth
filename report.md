@@ -1,4 +1,8 @@
-# 7c. 1 Outline
+Extracted from the [Open Banking Report](http://theodi.org/open-banking-standard)
+
+# 7c. Security
+
+## 7c. 1 Outline
 
 This chapter covers three broad areas.
 1. Security aspects of the API specification, including authentication, authorisation, access
@@ -207,12 +211,11 @@ The process by which a customer authenticates themselves to a data attribute pro
 
 This approach has the benefit of allowing the data attribute provider to continue to own and control the method for authenticating its customers (thereby minimising the risk that a third party could obtain permissions without explicit approval by the customer) and avoids mandating the use of specific authentication methods. Separately, customers will also need to authenticate themselves to third parties in order to gain access to the services or functionality being provided. The method used by both data attribute providers and third parties to authenticate customers should be appropriate to adequately protect the data and functionality in question.
 
-Figure 7c.1 Authentication and authorisation: customer experience example (account
-aggregation)
-*TODO: Add Link*
+[Figure 7c.1 Authentication and authorisation: customer experience example (account
+aggregation)](./Figure7c.1.png)
 
-Figure 7c.2 Authentication and authorisation: high-level process flow
-*TODO: Add Link*
+[Figure 7c.2 Authentication and authorisation: high-level process flow](./Figure7c.2.png)
+
 
 Figure 7c.3 Authentication and authorisation: technical data flow
 *TODO: Add Link*
